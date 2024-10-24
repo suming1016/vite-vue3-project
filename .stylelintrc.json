@@ -1,0 +1,52 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "plugins": ["stylelint-scss", "stylelint-prettier", "stylelint-order"],
+  "overrides": [
+    {
+      "customSyntax": "postcss-html",
+      "files": ["*.(html|vue)", "**/*.(html|vue)"],
+      "rules": {
+        "selector-pseudo-class-no-unknown": [
+          true,
+          {
+            "ignorePseudoClasses": ["global", "deep"]
+          }
+        ],
+        "selector-pseudo-element-no-unknown": [
+          true,
+          {
+            "ignorePseudoElements": ["v-deep", "v-global", "v-slotted"]
+          }
+        ]
+      }
+    },
+    {
+      "customSyntax": "postcss-scss",
+      "files": ["*.scss", "**/*.scss"]
+    }
+  ],
+  "ignoreFiles": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.tsx",
+    "**/*.ts",
+    "**/*.json",
+    "**/*.md",
+    "bundle-stats.html"
+  ],
+  "rules": {
+    "color-no-invalid-hex": true,
+    "block-no-empty": true,
+    "order/order": ["custom-properties", "declarations", "rules"],
+    "order/properties-order": [
+      {
+        "emptyLineBefore": "always",
+        "properties": ["width", "height"]
+      },
+      {
+        "emptyLineBefore": "always",
+        "properties": ["margin", "padding"]
+      }
+    ]
+  }
+}

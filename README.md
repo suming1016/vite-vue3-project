@@ -43,3 +43,50 @@ pnpm test:unit
 ```sh
 pnpm lint
 ```
+
+```
+vite-vue3-project
+├─ .editorconfig
+├─ .env
+├─ .env.development
+├─ .env.production
+├─ .env.test
+├─ .git
+├─ .gitignore
+├─ .husky
+├─ .prettierrc.json
+├─ .stylelintignore
+├─ .stylelintrc.json
+├─ bundle-stats.html
+├─ commitlint.config.mjs
+├─ cz.config.cjs
+├─ env.d.ts
+├─ eslint.config.mjs
+├─ index.html
+├─ package.json
+├─ pnpm-lock.yaml
+├─ public
+├─ README.md
+├─ src
+│  ├─ App.vue
+│  ├─ assets
+│  ├─ components
+│  ├─ hooks
+│  ├─ locales
+│  ├─ main.ts
+│  ├─ router
+│  ├─ stores
+│  ├─ types
+│  ├─ utils
+│  └─ views
+├─ tsconfig.app.json
+├─ tsconfig.json
+├─ tsconfig.node.json
+├─ tsconfig.vitest.json
+├─ types
+│  ├─ auto-imports.d.ts
+│  └─ components.d.ts
+├─ vite.config.ts
+└─ vitest.config.ts
+
+```

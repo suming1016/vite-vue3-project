@@ -7,8 +7,8 @@
     <title>Rollup Visualizer</title>
     <style>
       :root {
-        --font-family: -apple-system, blinkmacsystemfont, 'Segoe UI', roboto,
-          'Helvetica Neue', arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+        --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+          'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
           'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
         --background-color: #2b2d42;
         --text-color: #edf2f4;
@@ -19,8 +19,8 @@
       }
 
       *,
-      *::before,
-      *::after {
+      *:before,
+      *:after {
         box-sizing: inherit;
       }
 
@@ -31,14 +31,14 @@
       }
 
       body {
-        margin: 0;
         padding: 0;
+        margin: 0;
       }
 
       html,
       body {
-        width: 100%;
         height: 100%;
+        width: 100%;
         overflow: hidden;
       }
 
@@ -78,8 +78,6 @@
       }
 
       .sidebar {
-        height: 20px;
-        margin: 0 50px;
         position: fixed;
         top: 0;
         left: 0;
@@ -88,6 +86,8 @@
         flex-direction: row;
         font-size: 0.7rem;
         align-items: center;
+        margin: 0 50px;
+        height: 20px;
       }
 
       .size-selectors {
@@ -103,7 +103,6 @@
         justify-content: center;
         margin-right: 1rem;
       }
-
       .size-selector input {
         margin: 0 0.3rem 0 0;
       }
@@ -127,7 +126,6 @@
         justify-content: center;
         flex: 1;
       }
-
       .module-filter input {
         flex: 1;
         height: 1rem;
@@ -135,7 +133,6 @@
         font-size: 0.7rem;
         margin-left: 0.3rem;
       }
-
       .module-filter + .module-filter {
         margin-left: 0.5rem;
       }
@@ -6759,78 +6756,90 @@
           name: 'root',
           children: [
             {
-              name: 'js/vue.BUFaWkFO.js',
+              name: 'js/vue.CpswCb7o.js',
               children: [
                 {
                   name: 'E:/private-code/vite-vue3-project/node_modules/.pnpm',
                   children: [
                     {
                       name: '@vue+shared@3.5.12/node_modules/@vue/shared/dist/shared.esm-bundler.js',
-                      uid: 'da36310c-1',
+                      uid: '9aea9cf1-1',
                     },
                     {
                       name: '@vue+reactivity@3.5.12/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js',
-                      uid: 'da36310c-3',
+                      uid: '9aea9cf1-3',
                     },
                     {
                       name: '@vue+runtime-core@3.5.12/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js',
-                      uid: 'da36310c-5',
+                      uid: '9aea9cf1-5',
                     },
                     {
                       name: '@vue+runtime-dom@3.5.12/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js',
-                      uid: 'da36310c-7',
+                      uid: '9aea9cf1-7',
                     },
                     {
                       name: 'vue@3.5.12_typescript@5.6.3/node_modules/vue/dist/vue.runtime.esm-bundler.js',
-                      uid: 'da36310c-9',
-                    },
-                    {
-                      name: 'vue-demi@0.14.10_vue@3.5.12_typescript@5.6.3_/node_modules/vue-demi/lib/index.mjs',
-                      uid: 'da36310c-11',
+                      uid: '9aea9cf1-9',
                     },
                     {
                       name: '@vue+devtools-api@6.6.4/node_modules/@vue/devtools-api/lib/esm',
                       children: [
-                        { uid: 'da36310c-13', name: 'env.js' },
-                        { uid: 'da36310c-15', name: 'const.js' },
-                        { uid: 'da36310c-17', name: 'time.js' },
-                        { uid: 'da36310c-19', name: 'proxy.js' },
+                        { uid: '9aea9cf1-11', name: 'env.js' },
+                        { uid: '9aea9cf1-13', name: 'const.js' },
+                        { uid: '9aea9cf1-15', name: 'time.js' },
+                        { uid: '9aea9cf1-17', name: 'proxy.js' },
                         {
                           name: 'api',
                           children: [
-                            { uid: 'da36310c-21', name: 'api.js' },
-                            { uid: 'da36310c-23', name: 'app.js' },
-                            { uid: 'da36310c-25', name: 'component.js' },
-                            { uid: 'da36310c-27', name: 'context.js' },
-                            { uid: 'da36310c-29', name: 'hooks.js' },
-                            { uid: 'da36310c-31', name: 'util.js' },
-                            { uid: 'da36310c-33', name: 'index.js' },
+                            { uid: '9aea9cf1-19', name: 'api.js' },
+                            { uid: '9aea9cf1-21', name: 'app.js' },
+                            { uid: '9aea9cf1-23', name: 'component.js' },
+                            { uid: '9aea9cf1-25', name: 'context.js' },
+                            { uid: '9aea9cf1-27', name: 'hooks.js' },
+                            { uid: '9aea9cf1-29', name: 'util.js' },
+                            { uid: '9aea9cf1-31', name: 'index.js' },
                           ],
                         },
-                        { uid: 'da36310c-35', name: 'plugin.js' },
-                        { uid: 'da36310c-37', name: 'index.js' },
+                        { uid: '9aea9cf1-33', name: 'plugin.js' },
+                        { uid: '9aea9cf1-35', name: 'index.js' },
                       ],
                     },
                     {
-                      name: 'pinia@2.2.4_typescript@5.6.3_vue@3.5.12_typescript@5.6.3_/node_modules/pinia/dist/pinia.mjs',
-                      uid: 'da36310c-39',
+                      name: 'vue-router@4.4.5_vue@3.5.12_typescript@5.6.3_/node_modules/vue-router/dist/vue-router.mjs',
+                      uid: '9aea9cf1-37',
                     },
                     {
-                      name: 'vue-router@4.4.5_vue@3.5.12_typescript@5.6.3_/node_modules/vue-router/dist/vue-router.mjs',
-                      uid: 'da36310c-41',
+                      name: 'vue-demi@0.14.10_vue@3.5.12_typescript@5.6.3_/node_modules/vue-demi/lib/index.mjs',
+                      uid: '9aea9cf1-39',
+                    },
+                    {
+                      name: 'pinia@2.2.4_typescript@5.6.3_vue@3.5.12_typescript@5.6.3_/node_modules/pinia/dist/pinia.mjs',
+                      uid: '9aea9cf1-41',
+                    },
+                    {
+                      name: 'destr@2.0.3/node_modules/destr/dist/index.mjs',
+                      uid: '9aea9cf1-43',
+                    },
+                    {
+                      name: 'deep-pick-omit@1.2.1/node_modules/deep-pick-omit/dist/index.mjs',
+                      uid: '9aea9cf1-45',
+                    },
+                    {
+                      name: 'pinia-plugin-persistedstate@4.1.1_pinia@2.2.4_typescript@5.6.3_vue@3.5.12_typescript@5.6.3___rollup@4.24.0/node_modules/pinia-plugin-persistedstate/dist/index.js',
+                      uid: '9aea9cf1-47',
                     },
                   ],
                 },
               ],
             },
             {
-              name: 'js/app.Dixayvik.js',
+              name: 'js/app.CqwRYDhv.js',
               children: [
                 {
                   name: '\u0000vite',
                   children: [
-                    { uid: 'da36310c-43', name: 'modulepreload-polyfill.js' },
-                    { uid: 'da36310c-57', name: 'preload-helper.js' },
+                    { uid: '9aea9cf1-49', name: 'modulepreload-polyfill.js' },
+                    { uid: '9aea9cf1-61', name: 'preload-helper.js' },
                   ],
                 },
                 {
@@ -6839,526 +6848,622 @@
                     {
                       name: 'src',
                       children: [
+                        { name: 'assets/main.css', uid: '9aea9cf1-51' },
                         {
-                          name: 'assets',
-                          children: [
-                            { uid: 'da36310c-45', name: 'main.css' },
-                            { uid: 'da36310c-47', name: 'logo.svg' },
-                          ],
-                        },
-                        {
-                          uid: 'da36310c-49',
+                          uid: '9aea9cf1-53',
                           name: 'App.vue?vue&type=script&setup=true&lang.ts',
                         },
                         {
-                          uid: 'da36310c-51',
-                          name: 'App.vue?vue&type=style&index=0&scoped=c767f5fd&lang.css',
+                          uid: '9aea9cf1-55',
+                          name: 'App.vue?vue&type=style&index=0&scoped=eae90639&lang.css',
                         },
-                        { uid: 'da36310c-55', name: 'App.vue' },
-                        { name: 'views/HomeView.vue', uid: 'da36310c-59' },
-                        { name: 'router/index.ts', uid: 'da36310c-61' },
-                        { uid: 'da36310c-63', name: 'main.ts' },
+                        { uid: '9aea9cf1-59', name: 'App.vue' },
+                        {
+                          name: 'views',
+                          children: [
+                            {
+                              uid: '9aea9cf1-63',
+                              name: 'AboutView.vue?vue&type=style&index=0&lang.css',
+                            },
+                            { uid: '9aea9cf1-65', name: 'AboutView.vue' },
+                            {
+                              uid: '9aea9cf1-67',
+                              name: 'HomeView.vue?vue&type=script&setup=true&lang.ts',
+                            },
+                            {
+                              uid: '9aea9cf1-69',
+                              name: 'HomeView.vue?vue&type=style&index=0&scoped=d0d04da5&lang.scss',
+                            },
+                            { uid: '9aea9cf1-71', name: 'HomeView.vue' },
+                          ],
+                        },
+                        { name: 'router/index.ts', uid: '9aea9cf1-73' },
+                        { name: 'stores/setup.ts', uid: '9aea9cf1-75' },
+                        { uid: '9aea9cf1-77', name: 'main.ts' },
                       ],
                     },
-                    { uid: 'da36310c-65', name: 'index.html' },
+                    { uid: '9aea9cf1-79', name: 'index.html' },
                   ],
                 },
-                { uid: 'da36310c-53', name: '\u0000plugin-vue:export-helper' },
-              ],
-            },
-            {
-              name: 'js/AboutView.B50TXHsB.js',
-              children: [
-                {
-                  name: 'E:/private-code/vite-vue3-project/src/views',
-                  children: [
-                    {
-                      uid: 'da36310c-67',
-                      name: 'AboutView.vue?vue&type=style&index=0&lang.css',
-                    },
-                    { uid: 'da36310c-69', name: 'AboutView.vue' },
-                  ],
-                },
+                { uid: '9aea9cf1-57', name: '\u0000plugin-vue:export-helper' },
               ],
             },
           ],
           isRoot: true,
         },
         nodeParts: {
-          'da36310c-1': {
+          '9aea9cf1-1': {
             renderedLength: 5002,
             gzipLength: 1857,
             brotliLength: 0,
-            metaUid: 'da36310c-0',
+            metaUid: '9aea9cf1-0',
           },
-          'da36310c-3': {
+          '9aea9cf1-3': {
             renderedLength: 39576,
             gzipLength: 8853,
             brotliLength: 0,
-            metaUid: 'da36310c-2',
+            metaUid: '9aea9cf1-2',
           },
-          'da36310c-5': {
+          '9aea9cf1-5': {
             renderedLength: 114283,
             gzipLength: 26487,
             brotliLength: 0,
-            metaUid: 'da36310c-4',
+            metaUid: '9aea9cf1-4',
           },
-          'da36310c-7': {
+          '9aea9cf1-7': {
             renderedLength: 13420,
             gzipLength: 4169,
             brotliLength: 0,
-            metaUid: 'da36310c-6',
+            metaUid: '9aea9cf1-6',
           },
-          'da36310c-9': {
+          '9aea9cf1-9': {
             renderedLength: 0,
             gzipLength: 0,
             brotliLength: 0,
-            metaUid: 'da36310c-8',
+            metaUid: '9aea9cf1-8',
           },
-          'da36310c-11': {
-            renderedLength: 19,
-            gzipLength: 39,
-            brotliLength: 0,
-            metaUid: 'da36310c-10',
-          },
-          'da36310c-13': {
+          '9aea9cf1-11': {
             renderedLength: 0,
             gzipLength: 0,
             brotliLength: 0,
-            metaUid: 'da36310c-12',
+            metaUid: '9aea9cf1-10',
           },
-          'da36310c-15': {
+          '9aea9cf1-13': {
             renderedLength: 0,
             gzipLength: 0,
             brotliLength: 0,
-            metaUid: 'da36310c-14',
+            metaUid: '9aea9cf1-12',
           },
-          'da36310c-17': {
+          '9aea9cf1-15': {
             renderedLength: 0,
             gzipLength: 0,
             brotliLength: 0,
-            metaUid: 'da36310c-16',
+            metaUid: '9aea9cf1-14',
           },
-          'da36310c-19': {
+          '9aea9cf1-17': {
             renderedLength: 0,
             gzipLength: 0,
             brotliLength: 0,
-            metaUid: 'da36310c-18',
+            metaUid: '9aea9cf1-16',
           },
-          'da36310c-21': {
+          '9aea9cf1-19': {
             renderedLength: 0,
             gzipLength: 0,
             brotliLength: 0,
-            metaUid: 'da36310c-20',
+            metaUid: '9aea9cf1-18',
           },
-          'da36310c-23': {
+          '9aea9cf1-21': {
             renderedLength: 0,
             gzipLength: 0,
             brotliLength: 0,
-            metaUid: 'da36310c-22',
+            metaUid: '9aea9cf1-20',
           },
-          'da36310c-25': {
+          '9aea9cf1-23': {
             renderedLength: 0,
             gzipLength: 0,
             brotliLength: 0,
-            metaUid: 'da36310c-24',
+            metaUid: '9aea9cf1-22',
           },
-          'da36310c-27': {
+          '9aea9cf1-25': {
             renderedLength: 0,
             gzipLength: 0,
             brotliLength: 0,
-            metaUid: 'da36310c-26',
+            metaUid: '9aea9cf1-24',
           },
-          'da36310c-29': {
+          '9aea9cf1-27': {
             renderedLength: 0,
             gzipLength: 0,
             brotliLength: 0,
-            metaUid: 'da36310c-28',
+            metaUid: '9aea9cf1-26',
           },
-          'da36310c-31': {
+          '9aea9cf1-29': {
             renderedLength: 0,
             gzipLength: 0,
             brotliLength: 0,
-            metaUid: 'da36310c-30',
+            metaUid: '9aea9cf1-28',
           },
-          'da36310c-33': {
+          '9aea9cf1-31': {
             renderedLength: 0,
             gzipLength: 0,
             brotliLength: 0,
-            metaUid: 'da36310c-32',
+            metaUid: '9aea9cf1-30',
           },
-          'da36310c-35': {
+          '9aea9cf1-33': {
             renderedLength: 0,
             gzipLength: 0,
             brotliLength: 0,
-            metaUid: 'da36310c-34',
+            metaUid: '9aea9cf1-32',
           },
-          'da36310c-37': {
+          '9aea9cf1-35': {
             renderedLength: 0,
             gzipLength: 0,
             brotliLength: 0,
-            metaUid: 'da36310c-36',
+            metaUid: '9aea9cf1-34',
           },
-          'da36310c-39': {
-            renderedLength: 1111,
-            gzipLength: 544,
-            brotliLength: 0,
-            metaUid: 'da36310c-38',
-          },
-          'da36310c-41': {
+          '9aea9cf1-37': {
             renderedLength: 62280,
             gzipLength: 16063,
             brotliLength: 0,
-            metaUid: 'da36310c-40',
+            metaUid: '9aea9cf1-36',
           },
-          'da36310c-43': {
+          '9aea9cf1-39': {
+            renderedLength: 19,
+            gzipLength: 39,
+            brotliLength: 0,
+            metaUid: '9aea9cf1-38',
+          },
+          '9aea9cf1-41': {
+            renderedLength: 1111,
+            gzipLength: 544,
+            brotliLength: 0,
+            metaUid: '9aea9cf1-40',
+          },
+          '9aea9cf1-43': {
+            renderedLength: 2060,
+            gzipLength: 807,
+            brotliLength: 0,
+            metaUid: '9aea9cf1-42',
+          },
+          '9aea9cf1-45': {
+            renderedLength: 1823,
+            gzipLength: 632,
+            brotliLength: 0,
+            metaUid: '9aea9cf1-44',
+          },
+          '9aea9cf1-47': {
+            renderedLength: 2773,
+            gzipLength: 920,
+            brotliLength: 0,
+            metaUid: '9aea9cf1-46',
+          },
+          '9aea9cf1-49': {
             renderedLength: 1280,
             gzipLength: 537,
             brotliLength: 0,
-            metaUid: 'da36310c-42',
+            metaUid: '9aea9cf1-48',
           },
-          'da36310c-45': {
+          '9aea9cf1-51': {
             renderedLength: 0,
             gzipLength: 0,
             brotliLength: 0,
-            metaUid: 'da36310c-44',
+            metaUid: '9aea9cf1-50',
           },
-          'da36310c-47': {
-            renderedLength: 362,
-            gzipLength: 243,
+          '9aea9cf1-53': {
+            renderedLength: 329,
+            gzipLength: 241,
             brotliLength: 0,
-            metaUid: 'da36310c-46',
+            metaUid: '9aea9cf1-52',
           },
-          'da36310c-49': {
-            renderedLength: 521,
-            gzipLength: 307,
-            brotliLength: 0,
-            metaUid: 'da36310c-48',
-          },
-          'da36310c-51': {
+          '9aea9cf1-55': {
             renderedLength: 38,
             gzipLength: 58,
             brotliLength: 0,
-            metaUid: 'da36310c-50',
+            metaUid: '9aea9cf1-54',
           },
-          'da36310c-53': {
+          '9aea9cf1-57': {
             renderedLength: 159,
             gzipLength: 136,
             brotliLength: 0,
-            metaUid: 'da36310c-52',
+            metaUid: '9aea9cf1-56',
           },
-          'da36310c-55': {
+          '9aea9cf1-59': {
             renderedLength: 89,
             gzipLength: 106,
             brotliLength: 0,
-            metaUid: 'da36310c-54',
+            metaUid: '9aea9cf1-58',
           },
-          'da36310c-57': {
+          '9aea9cf1-61': {
             renderedLength: 1928,
             gzipLength: 828,
             brotliLength: 0,
-            metaUid: 'da36310c-56',
+            metaUid: '9aea9cf1-60',
           },
-          'da36310c-59': {
-            renderedLength: 248,
-            gzipLength: 205,
-            brotliLength: 0,
-            metaUid: 'da36310c-58',
-          },
-          'da36310c-61': {
-            renderedLength: 502,
-            gzipLength: 324,
-            brotliLength: 0,
-            metaUid: 'da36310c-60',
-          },
-          'da36310c-63': {
-            renderedLength: 87,
-            gzipLength: 88,
-            brotliLength: 0,
-            metaUid: 'da36310c-62',
-          },
-          'da36310c-65': {
-            renderedLength: 0,
-            gzipLength: 0,
-            brotliLength: 0,
-            metaUid: 'da36310c-64',
-          },
-          'da36310c-67': {
+          '9aea9cf1-63': {
             renderedLength: 38,
             gzipLength: 58,
             brotliLength: 0,
-            metaUid: 'da36310c-66',
+            metaUid: '9aea9cf1-62',
           },
-          'da36310c-69': {
-            renderedLength: 377,
-            gzipLength: 274,
+          '9aea9cf1-65': {
+            renderedLength: 381,
+            gzipLength: 276,
             brotliLength: 0,
-            metaUid: 'da36310c-68',
+            metaUid: '9aea9cf1-64',
+          },
+          '9aea9cf1-67': {
+            renderedLength: 420,
+            gzipLength: 267,
+            brotliLength: 0,
+            metaUid: '9aea9cf1-66',
+          },
+          '9aea9cf1-69': {
+            renderedLength: 38,
+            gzipLength: 58,
+            brotliLength: 0,
+            metaUid: '9aea9cf1-68',
+          },
+          '9aea9cf1-71': {
+            renderedLength: 92,
+            gzipLength: 109,
+            brotliLength: 0,
+            metaUid: '9aea9cf1-70',
+          },
+          '9aea9cf1-73': {
+            renderedLength: 510,
+            gzipLength: 322,
+            brotliLength: 0,
+            metaUid: '9aea9cf1-72',
+          },
+          '9aea9cf1-75': {
+            renderedLength: 540,
+            gzipLength: 322,
+            brotliLength: 0,
+            metaUid: '9aea9cf1-74',
+          },
+          '9aea9cf1-77': {
+            renderedLength: 120,
+            gzipLength: 116,
+            brotliLength: 0,
+            metaUid: '9aea9cf1-76',
+          },
+          '9aea9cf1-79': {
+            renderedLength: 0,
+            gzipLength: 0,
+            brotliLength: 0,
+            metaUid: '9aea9cf1-78',
           },
         },
         nodeMetas: {
-          'da36310c-0': {
+          '9aea9cf1-0': {
             id: 'E:/private-code/vite-vue3-project/node_modules/.pnpm/@vue+shared@3.5.12/node_modules/@vue/shared/dist/shared.esm-bundler.js',
-            moduleParts: { 'js/vue.BUFaWkFO.js': 'da36310c-1' },
+            moduleParts: { 'js/vue.CpswCb7o.js': '9aea9cf1-1' },
             imported: [],
             importedBy: [
-              { uid: 'da36310c-6' },
-              { uid: 'da36310c-4' },
-              { uid: 'da36310c-2' },
+              { uid: '9aea9cf1-6' },
+              { uid: '9aea9cf1-4' },
+              { uid: '9aea9cf1-2' },
             ],
           },
-          'da36310c-2': {
+          '9aea9cf1-2': {
             id: 'E:/private-code/vite-vue3-project/node_modules/.pnpm/@vue+reactivity@3.5.12/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js',
-            moduleParts: { 'js/vue.BUFaWkFO.js': 'da36310c-3' },
-            imported: [{ uid: 'da36310c-0' }],
-            importedBy: [{ uid: 'da36310c-4' }],
+            moduleParts: { 'js/vue.CpswCb7o.js': '9aea9cf1-3' },
+            imported: [{ uid: '9aea9cf1-0' }],
+            importedBy: [{ uid: '9aea9cf1-4' }],
           },
-          'da36310c-4': {
+          '9aea9cf1-4': {
             id: 'E:/private-code/vite-vue3-project/node_modules/.pnpm/@vue+runtime-core@3.5.12/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js',
-            moduleParts: { 'js/vue.BUFaWkFO.js': 'da36310c-5' },
-            imported: [{ uid: 'da36310c-2' }, { uid: 'da36310c-0' }],
-            importedBy: [{ uid: 'da36310c-6' }],
+            moduleParts: { 'js/vue.CpswCb7o.js': '9aea9cf1-5' },
+            imported: [{ uid: '9aea9cf1-2' }, { uid: '9aea9cf1-0' }],
+            importedBy: [{ uid: '9aea9cf1-6' }],
           },
-          'da36310c-6': {
+          '9aea9cf1-6': {
             id: 'E:/private-code/vite-vue3-project/node_modules/.pnpm/@vue+runtime-dom@3.5.12/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js',
-            moduleParts: { 'js/vue.BUFaWkFO.js': 'da36310c-7' },
-            imported: [{ uid: 'da36310c-4' }, { uid: 'da36310c-0' }],
-            importedBy: [{ uid: 'da36310c-8' }],
+            moduleParts: { 'js/vue.CpswCb7o.js': '9aea9cf1-7' },
+            imported: [{ uid: '9aea9cf1-4' }, { uid: '9aea9cf1-0' }],
+            importedBy: [{ uid: '9aea9cf1-8' }],
           },
-          'da36310c-8': {
+          '9aea9cf1-8': {
             id: 'E:/private-code/vite-vue3-project/node_modules/.pnpm/vue@3.5.12_typescript@5.6.3/node_modules/vue/dist/vue.runtime.esm-bundler.js',
-            moduleParts: { 'js/vue.BUFaWkFO.js': 'da36310c-9' },
-            imported: [{ uid: 'da36310c-6' }],
+            moduleParts: { 'js/vue.CpswCb7o.js': '9aea9cf1-9' },
+            imported: [{ uid: '9aea9cf1-6' }],
             importedBy: [
-              { uid: 'da36310c-62' },
-              { uid: 'da36310c-10' },
-              { uid: 'da36310c-48' },
-              { uid: 'da36310c-40' },
-              { uid: 'da36310c-58' },
-              { uid: 'da36310c-68' },
+              { uid: '9aea9cf1-76' },
+              { uid: '9aea9cf1-52' },
+              { uid: '9aea9cf1-36' },
+              { uid: '9aea9cf1-64' },
+              { uid: '9aea9cf1-66' },
+              { uid: '9aea9cf1-82' },
+              { uid: '9aea9cf1-38' },
             ],
           },
-          'da36310c-10': {
-            id: 'E:/private-code/vite-vue3-project/node_modules/.pnpm/vue-demi@0.14.10_vue@3.5.12_typescript@5.6.3_/node_modules/vue-demi/lib/index.mjs',
-            moduleParts: { 'js/vue.BUFaWkFO.js': 'da36310c-11' },
-            imported: [{ uid: 'da36310c-8' }],
-            importedBy: [{ uid: 'da36310c-38' }],
-          },
-          'da36310c-12': {
+          '9aea9cf1-10': {
             id: 'E:/private-code/vite-vue3-project/node_modules/.pnpm/@vue+devtools-api@6.6.4/node_modules/@vue/devtools-api/lib/esm/env.js',
-            moduleParts: { 'js/vue.BUFaWkFO.js': 'da36310c-13' },
+            moduleParts: { 'js/vue.CpswCb7o.js': '9aea9cf1-11' },
             imported: [],
-            importedBy: [{ uid: 'da36310c-36' }],
+            importedBy: [{ uid: '9aea9cf1-34' }],
           },
-          'da36310c-14': {
+          '9aea9cf1-12': {
             id: 'E:/private-code/vite-vue3-project/node_modules/.pnpm/@vue+devtools-api@6.6.4/node_modules/@vue/devtools-api/lib/esm/const.js',
-            moduleParts: { 'js/vue.BUFaWkFO.js': 'da36310c-15' },
+            moduleParts: { 'js/vue.CpswCb7o.js': '9aea9cf1-13' },
             imported: [],
-            importedBy: [{ uid: 'da36310c-36' }, { uid: 'da36310c-18' }],
+            importedBy: [{ uid: '9aea9cf1-34' }, { uid: '9aea9cf1-16' }],
           },
-          'da36310c-16': {
+          '9aea9cf1-14': {
             id: 'E:/private-code/vite-vue3-project/node_modules/.pnpm/@vue+devtools-api@6.6.4/node_modules/@vue/devtools-api/lib/esm/time.js',
-            moduleParts: { 'js/vue.BUFaWkFO.js': 'da36310c-17' },
+            moduleParts: { 'js/vue.CpswCb7o.js': '9aea9cf1-15' },
             imported: [],
-            importedBy: [{ uid: 'da36310c-36' }, { uid: 'da36310c-18' }],
+            importedBy: [{ uid: '9aea9cf1-34' }, { uid: '9aea9cf1-16' }],
           },
-          'da36310c-18': {
+          '9aea9cf1-16': {
             id: 'E:/private-code/vite-vue3-project/node_modules/.pnpm/@vue+devtools-api@6.6.4/node_modules/@vue/devtools-api/lib/esm/proxy.js',
-            moduleParts: { 'js/vue.BUFaWkFO.js': 'da36310c-19' },
-            imported: [{ uid: 'da36310c-14' }, { uid: 'da36310c-16' }],
-            importedBy: [{ uid: 'da36310c-36' }],
+            moduleParts: { 'js/vue.CpswCb7o.js': '9aea9cf1-17' },
+            imported: [{ uid: '9aea9cf1-12' }, { uid: '9aea9cf1-14' }],
+            importedBy: [{ uid: '9aea9cf1-34' }],
           },
-          'da36310c-20': {
+          '9aea9cf1-18': {
             id: 'E:/private-code/vite-vue3-project/node_modules/.pnpm/@vue+devtools-api@6.6.4/node_modules/@vue/devtools-api/lib/esm/api/api.js',
-            moduleParts: { 'js/vue.BUFaWkFO.js': 'da36310c-21' },
+            moduleParts: { 'js/vue.CpswCb7o.js': '9aea9cf1-19' },
             imported: [],
-            importedBy: [{ uid: 'da36310c-32' }],
+            importedBy: [{ uid: '9aea9cf1-30' }],
           },
-          'da36310c-22': {
+          '9aea9cf1-20': {
             id: 'E:/private-code/vite-vue3-project/node_modules/.pnpm/@vue+devtools-api@6.6.4/node_modules/@vue/devtools-api/lib/esm/api/app.js',
-            moduleParts: { 'js/vue.BUFaWkFO.js': 'da36310c-23' },
+            moduleParts: { 'js/vue.CpswCb7o.js': '9aea9cf1-21' },
             imported: [],
-            importedBy: [{ uid: 'da36310c-32' }],
+            importedBy: [{ uid: '9aea9cf1-30' }],
           },
-          'da36310c-24': {
+          '9aea9cf1-22': {
             id: 'E:/private-code/vite-vue3-project/node_modules/.pnpm/@vue+devtools-api@6.6.4/node_modules/@vue/devtools-api/lib/esm/api/component.js',
-            moduleParts: { 'js/vue.BUFaWkFO.js': 'da36310c-25' },
+            moduleParts: { 'js/vue.CpswCb7o.js': '9aea9cf1-23' },
             imported: [],
-            importedBy: [{ uid: 'da36310c-32' }],
+            importedBy: [{ uid: '9aea9cf1-30' }],
           },
-          'da36310c-26': {
+          '9aea9cf1-24': {
             id: 'E:/private-code/vite-vue3-project/node_modules/.pnpm/@vue+devtools-api@6.6.4/node_modules/@vue/devtools-api/lib/esm/api/context.js',
-            moduleParts: { 'js/vue.BUFaWkFO.js': 'da36310c-27' },
+            moduleParts: { 'js/vue.CpswCb7o.js': '9aea9cf1-25' },
             imported: [],
-            importedBy: [{ uid: 'da36310c-32' }],
+            importedBy: [{ uid: '9aea9cf1-30' }],
           },
-          'da36310c-28': {
+          '9aea9cf1-26': {
             id: 'E:/private-code/vite-vue3-project/node_modules/.pnpm/@vue+devtools-api@6.6.4/node_modules/@vue/devtools-api/lib/esm/api/hooks.js',
-            moduleParts: { 'js/vue.BUFaWkFO.js': 'da36310c-29' },
+            moduleParts: { 'js/vue.CpswCb7o.js': '9aea9cf1-27' },
             imported: [],
-            importedBy: [{ uid: 'da36310c-32' }],
+            importedBy: [{ uid: '9aea9cf1-30' }],
           },
-          'da36310c-30': {
+          '9aea9cf1-28': {
             id: 'E:/private-code/vite-vue3-project/node_modules/.pnpm/@vue+devtools-api@6.6.4/node_modules/@vue/devtools-api/lib/esm/api/util.js',
-            moduleParts: { 'js/vue.BUFaWkFO.js': 'da36310c-31' },
+            moduleParts: { 'js/vue.CpswCb7o.js': '9aea9cf1-29' },
             imported: [],
-            importedBy: [{ uid: 'da36310c-32' }],
+            importedBy: [{ uid: '9aea9cf1-30' }],
           },
-          'da36310c-32': {
+          '9aea9cf1-30': {
             id: 'E:/private-code/vite-vue3-project/node_modules/.pnpm/@vue+devtools-api@6.6.4/node_modules/@vue/devtools-api/lib/esm/api/index.js',
-            moduleParts: { 'js/vue.BUFaWkFO.js': 'da36310c-33' },
+            moduleParts: { 'js/vue.CpswCb7o.js': '9aea9cf1-31' },
             imported: [
-              { uid: 'da36310c-20' },
-              { uid: 'da36310c-22' },
-              { uid: 'da36310c-24' },
-              { uid: 'da36310c-26' },
-              { uid: 'da36310c-28' },
-              { uid: 'da36310c-30' },
+              { uid: '9aea9cf1-18' },
+              { uid: '9aea9cf1-20' },
+              { uid: '9aea9cf1-22' },
+              { uid: '9aea9cf1-24' },
+              { uid: '9aea9cf1-26' },
+              { uid: '9aea9cf1-28' },
             ],
-            importedBy: [{ uid: 'da36310c-36' }],
+            importedBy: [{ uid: '9aea9cf1-34' }],
           },
-          'da36310c-34': {
+          '9aea9cf1-32': {
             id: 'E:/private-code/vite-vue3-project/node_modules/.pnpm/@vue+devtools-api@6.6.4/node_modules/@vue/devtools-api/lib/esm/plugin.js',
-            moduleParts: { 'js/vue.BUFaWkFO.js': 'da36310c-35' },
+            moduleParts: { 'js/vue.CpswCb7o.js': '9aea9cf1-33' },
             imported: [],
-            importedBy: [{ uid: 'da36310c-36' }],
+            importedBy: [{ uid: '9aea9cf1-34' }],
           },
-          'da36310c-36': {
+          '9aea9cf1-34': {
             id: 'E:/private-code/vite-vue3-project/node_modules/.pnpm/@vue+devtools-api@6.6.4/node_modules/@vue/devtools-api/lib/esm/index.js',
-            moduleParts: { 'js/vue.BUFaWkFO.js': 'da36310c-37' },
+            moduleParts: { 'js/vue.CpswCb7o.js': '9aea9cf1-35' },
             imported: [
-              { uid: 'da36310c-12' },
-              { uid: 'da36310c-14' },
-              { uid: 'da36310c-18' },
-              { uid: 'da36310c-32' },
-              { uid: 'da36310c-34' },
-              { uid: 'da36310c-16' },
+              { uid: '9aea9cf1-10' },
+              { uid: '9aea9cf1-12' },
+              { uid: '9aea9cf1-16' },
+              { uid: '9aea9cf1-30' },
+              { uid: '9aea9cf1-32' },
+              { uid: '9aea9cf1-14' },
             ],
-            importedBy: [{ uid: 'da36310c-38' }, { uid: 'da36310c-40' }],
+            importedBy: [{ uid: '9aea9cf1-36' }, { uid: '9aea9cf1-40' }],
           },
-          'da36310c-38': {
-            id: 'E:/private-code/vite-vue3-project/node_modules/.pnpm/pinia@2.2.4_typescript@5.6.3_vue@3.5.12_typescript@5.6.3_/node_modules/pinia/dist/pinia.mjs',
-            moduleParts: { 'js/vue.BUFaWkFO.js': 'da36310c-39' },
-            imported: [{ uid: 'da36310c-10' }, { uid: 'da36310c-36' }],
-            importedBy: [{ uid: 'da36310c-62' }],
-          },
-          'da36310c-40': {
+          '9aea9cf1-36': {
             id: 'E:/private-code/vite-vue3-project/node_modules/.pnpm/vue-router@4.4.5_vue@3.5.12_typescript@5.6.3_/node_modules/vue-router/dist/vue-router.mjs',
-            moduleParts: { 'js/vue.BUFaWkFO.js': 'da36310c-41' },
-            imported: [{ uid: 'da36310c-8' }, { uid: 'da36310c-36' }],
-            importedBy: [{ uid: 'da36310c-60' }, { uid: 'da36310c-48' }],
+            moduleParts: { 'js/vue.CpswCb7o.js': '9aea9cf1-37' },
+            imported: [{ uid: '9aea9cf1-8' }, { uid: '9aea9cf1-34' }],
+            importedBy: [{ uid: '9aea9cf1-72' }, { uid: '9aea9cf1-52' }],
           },
-          'da36310c-42': {
-            id: '\u0000vite/modulepreload-polyfill.js',
-            moduleParts: { 'js/app.Dixayvik.js': 'da36310c-43' },
-            imported: [],
-            importedBy: [{ uid: 'da36310c-64' }],
+          '9aea9cf1-38': {
+            id: 'E:/private-code/vite-vue3-project/node_modules/.pnpm/vue-demi@0.14.10_vue@3.5.12_typescript@5.6.3_/node_modules/vue-demi/lib/index.mjs',
+            moduleParts: { 'js/vue.CpswCb7o.js': '9aea9cf1-39' },
+            imported: [{ uid: '9aea9cf1-8' }],
+            importedBy: [{ uid: '9aea9cf1-40' }],
           },
-          'da36310c-44': {
-            id: 'E:/private-code/vite-vue3-project/src/assets/main.css',
-            moduleParts: { 'js/app.Dixayvik.js': 'da36310c-45' },
-            imported: [],
-            importedBy: [{ uid: 'da36310c-62' }],
-          },
-          'da36310c-46': {
-            id: 'E:/private-code/vite-vue3-project/src/assets/logo.svg',
-            moduleParts: { 'js/app.Dixayvik.js': 'da36310c-47' },
-            imported: [],
-            importedBy: [{ uid: 'da36310c-48' }],
-          },
-          'da36310c-48': {
-            id: 'E:/private-code/vite-vue3-project/src/App.vue?vue&type=script&setup=true&lang.ts',
-            moduleParts: { 'js/app.Dixayvik.js': 'da36310c-49' },
-            imported: [
-              { uid: 'da36310c-8' },
-              { uid: 'da36310c-46' },
-              { uid: 'da36310c-40' },
+          '9aea9cf1-40': {
+            id: 'E:/private-code/vite-vue3-project/node_modules/.pnpm/pinia@2.2.4_typescript@5.6.3_vue@3.5.12_typescript@5.6.3_/node_modules/pinia/dist/pinia.mjs',
+            moduleParts: { 'js/vue.CpswCb7o.js': '9aea9cf1-41' },
+            imported: [{ uid: '9aea9cf1-38' }, { uid: '9aea9cf1-34' }],
+            importedBy: [
+              { uid: '9aea9cf1-80' },
+              { uid: '9aea9cf1-74' },
+              { uid: '9aea9cf1-82' },
+              { uid: '9aea9cf1-83' },
             ],
-            importedBy: [{ uid: 'da36310c-54' }],
           },
-          'da36310c-50': {
-            id: 'E:/private-code/vite-vue3-project/src/App.vue?vue&type=style&index=0&scoped=c767f5fd&lang.css',
-            moduleParts: { 'js/app.Dixayvik.js': 'da36310c-51' },
+          '9aea9cf1-42': {
+            id: 'E:/private-code/vite-vue3-project/node_modules/.pnpm/destr@2.0.3/node_modules/destr/dist/index.mjs',
+            moduleParts: { 'js/vue.CpswCb7o.js': '9aea9cf1-43' },
             imported: [],
-            importedBy: [{ uid: 'da36310c-54' }],
+            importedBy: [{ uid: '9aea9cf1-46' }],
           },
-          'da36310c-52': {
+          '9aea9cf1-44': {
+            id: 'E:/private-code/vite-vue3-project/node_modules/.pnpm/deep-pick-omit@1.2.1/node_modules/deep-pick-omit/dist/index.mjs',
+            moduleParts: { 'js/vue.CpswCb7o.js': '9aea9cf1-45' },
+            imported: [],
+            importedBy: [{ uid: '9aea9cf1-46' }],
+          },
+          '9aea9cf1-46': {
+            id: 'E:/private-code/vite-vue3-project/node_modules/.pnpm/pinia-plugin-persistedstate@4.1.1_pinia@2.2.4_typescript@5.6.3_vue@3.5.12_typescript@5.6.3___rollup@4.24.0/node_modules/pinia-plugin-persistedstate/dist/index.js',
+            moduleParts: { 'js/vue.CpswCb7o.js': '9aea9cf1-47' },
+            imported: [{ uid: '9aea9cf1-42' }, { uid: '9aea9cf1-44' }],
+            importedBy: [{ uid: '9aea9cf1-74' }],
+          },
+          '9aea9cf1-48': {
+            id: '\u0000vite/modulepreload-polyfill.js',
+            moduleParts: { 'js/app.CqwRYDhv.js': '9aea9cf1-49' },
+            imported: [],
+            importedBy: [{ uid: '9aea9cf1-78' }],
+          },
+          '9aea9cf1-50': {
+            id: 'E:/private-code/vite-vue3-project/src/assets/main.css',
+            moduleParts: { 'js/app.CqwRYDhv.js': '9aea9cf1-51' },
+            imported: [],
+            importedBy: [{ uid: '9aea9cf1-76' }],
+          },
+          '9aea9cf1-52': {
+            id: 'E:/private-code/vite-vue3-project/src/App.vue?vue&type=script&setup=true&lang.ts',
+            moduleParts: { 'js/app.CqwRYDhv.js': '9aea9cf1-53' },
+            imported: [{ uid: '9aea9cf1-8' }, { uid: '9aea9cf1-36' }],
+            importedBy: [{ uid: '9aea9cf1-58' }],
+          },
+          '9aea9cf1-54': {
+            id: 'E:/private-code/vite-vue3-project/src/App.vue?vue&type=style&index=0&scoped=eae90639&lang.css',
+            moduleParts: { 'js/app.CqwRYDhv.js': '9aea9cf1-55' },
+            imported: [],
+            importedBy: [{ uid: '9aea9cf1-58' }],
+          },
+          '9aea9cf1-56': {
             id: '\u0000plugin-vue:export-helper',
-            moduleParts: { 'js/app.Dixayvik.js': 'da36310c-53' },
+            moduleParts: { 'js/app.CqwRYDhv.js': '9aea9cf1-57' },
             imported: [],
             importedBy: [
-              { uid: 'da36310c-54' },
-              { uid: 'da36310c-58' },
-              { uid: 'da36310c-68' },
+              { uid: '9aea9cf1-58' },
+              { uid: '9aea9cf1-70' },
+              { uid: '9aea9cf1-64' },
             ],
           },
-          'da36310c-54': {
+          '9aea9cf1-58': {
             id: 'E:/private-code/vite-vue3-project/src/App.vue',
-            moduleParts: { 'js/app.Dixayvik.js': 'da36310c-55' },
+            moduleParts: { 'js/app.CqwRYDhv.js': '9aea9cf1-59' },
             imported: [
-              { uid: 'da36310c-48' },
-              { uid: 'da36310c-50' },
-              { uid: 'da36310c-52' },
+              { uid: '9aea9cf1-52' },
+              { uid: '9aea9cf1-54' },
+              { uid: '9aea9cf1-56' },
             ],
-            importedBy: [{ uid: 'da36310c-62' }],
+            importedBy: [{ uid: '9aea9cf1-76' }],
           },
-          'da36310c-56': {
+          '9aea9cf1-60': {
             id: '\u0000vite/preload-helper.js',
-            moduleParts: { 'js/app.Dixayvik.js': 'da36310c-57' },
+            moduleParts: { 'js/app.CqwRYDhv.js': '9aea9cf1-61' },
             imported: [],
-            importedBy: [{ uid: 'da36310c-60' }],
+            importedBy: [{ uid: '9aea9cf1-72' }, { uid: '9aea9cf1-74' }],
           },
-          'da36310c-58': {
+          '9aea9cf1-62': {
+            id: 'E:/private-code/vite-vue3-project/src/views/AboutView.vue?vue&type=style&index=0&lang.css',
+            moduleParts: { 'js/app.CqwRYDhv.js': '9aea9cf1-63' },
+            imported: [],
+            importedBy: [{ uid: '9aea9cf1-64' }],
+          },
+          '9aea9cf1-64': {
+            id: 'E:/private-code/vite-vue3-project/src/views/AboutView.vue',
+            moduleParts: { 'js/app.CqwRYDhv.js': '9aea9cf1-65' },
+            imported: [
+              { uid: '9aea9cf1-8' },
+              { uid: '9aea9cf1-62' },
+              { uid: '9aea9cf1-56' },
+            ],
+            importedBy: [{ uid: '9aea9cf1-72' }, { uid: '9aea9cf1-66' }],
+          },
+          '9aea9cf1-66': {
+            id: 'E:/private-code/vite-vue3-project/src/views/HomeView.vue?vue&type=script&setup=true&lang.ts',
+            moduleParts: { 'js/app.CqwRYDhv.js': '9aea9cf1-67' },
+            imported: [{ uid: '9aea9cf1-8' }, { uid: '9aea9cf1-64' }],
+            importedBy: [{ uid: '9aea9cf1-70' }],
+          },
+          '9aea9cf1-68': {
+            id: 'E:/private-code/vite-vue3-project/src/views/HomeView.vue?vue&type=style&index=0&scoped=d0d04da5&lang.scss',
+            moduleParts: { 'js/app.CqwRYDhv.js': '9aea9cf1-69' },
+            imported: [],
+            importedBy: [{ uid: '9aea9cf1-70' }],
+          },
+          '9aea9cf1-70': {
             id: 'E:/private-code/vite-vue3-project/src/views/HomeView.vue',
-            moduleParts: { 'js/app.Dixayvik.js': 'da36310c-59' },
-            imported: [{ uid: 'da36310c-8' }, { uid: 'da36310c-52' }],
-            importedBy: [{ uid: 'da36310c-60' }],
+            moduleParts: { 'js/app.CqwRYDhv.js': '9aea9cf1-71' },
+            imported: [
+              { uid: '9aea9cf1-66' },
+              { uid: '9aea9cf1-68' },
+              { uid: '9aea9cf1-56' },
+            ],
+            importedBy: [{ uid: '9aea9cf1-72' }],
           },
-          'da36310c-60': {
+          '9aea9cf1-72': {
             id: 'E:/private-code/vite-vue3-project/src/router/index.ts',
-            moduleParts: { 'js/app.Dixayvik.js': 'da36310c-61' },
+            moduleParts: { 'js/app.CqwRYDhv.js': '9aea9cf1-73' },
             imported: [
-              { uid: 'da36310c-56' },
-              { uid: 'da36310c-40' },
-              { uid: 'da36310c-58' },
-              { uid: 'da36310c-68', dynamic: true },
+              { uid: '9aea9cf1-60' },
+              { uid: '9aea9cf1-36' },
+              { uid: '9aea9cf1-70' },
+              { uid: '9aea9cf1-64', dynamic: true },
             ],
-            importedBy: [{ uid: 'da36310c-62' }],
+            importedBy: [{ uid: '9aea9cf1-76' }],
           },
-          'da36310c-62': {
+          '9aea9cf1-74': {
+            id: 'E:/private-code/vite-vue3-project/src/stores/setup.ts',
+            moduleParts: { 'js/app.CqwRYDhv.js': '9aea9cf1-75' },
+            imported: [
+              { uid: '9aea9cf1-60' },
+              { uid: '9aea9cf1-40' },
+              { uid: '9aea9cf1-46', dynamic: true },
+            ],
+            importedBy: [{ uid: '9aea9cf1-80' }],
+          },
+          '9aea9cf1-76': {
             id: 'E:/private-code/vite-vue3-project/src/main.ts',
-            moduleParts: { 'js/app.Dixayvik.js': 'da36310c-63' },
+            moduleParts: { 'js/app.CqwRYDhv.js': '9aea9cf1-77' },
             imported: [
-              { uid: 'da36310c-44' },
-              { uid: 'da36310c-8' },
-              { uid: 'da36310c-38' },
-              { uid: 'da36310c-54' },
-              { uid: 'da36310c-60' },
+              { uid: '9aea9cf1-50' },
+              { uid: '9aea9cf1-8' },
+              { uid: '9aea9cf1-58' },
+              { uid: '9aea9cf1-72' },
+              { uid: '9aea9cf1-80' },
             ],
-            importedBy: [{ uid: 'da36310c-64' }],
+            importedBy: [{ uid: '9aea9cf1-78' }],
           },
-          'da36310c-64': {
+          '9aea9cf1-78': {
             id: 'E:/private-code/vite-vue3-project/index.html',
-            moduleParts: { 'js/app.Dixayvik.js': 'da36310c-65' },
-            imported: [{ uid: 'da36310c-42' }, { uid: 'da36310c-62' }],
+            moduleParts: { 'js/app.CqwRYDhv.js': '9aea9cf1-79' },
+            imported: [{ uid: '9aea9cf1-48' }, { uid: '9aea9cf1-76' }],
             importedBy: [],
             isEntry: true,
           },
-          'da36310c-66': {
-            id: 'E:/private-code/vite-vue3-project/src/views/AboutView.vue?vue&type=style&index=0&lang.css',
-            moduleParts: { 'js/AboutView.B50TXHsB.js': 'da36310c-67' },
-            imported: [],
-            importedBy: [{ uid: 'da36310c-68' }],
-          },
-          'da36310c-68': {
-            id: 'E:/private-code/vite-vue3-project/src/views/AboutView.vue',
-            moduleParts: { 'js/AboutView.B50TXHsB.js': 'da36310c-69' },
+          '9aea9cf1-80': {
+            id: 'E:/private-code/vite-vue3-project/src/stores/index.ts',
+            moduleParts: {},
             imported: [
-              { uid: 'da36310c-8' },
-              { uid: 'da36310c-66' },
-              { uid: 'da36310c-52' },
+              { uid: '9aea9cf1-81' },
+              { uid: '9aea9cf1-74' },
+              { uid: '9aea9cf1-40' },
             ],
-            importedBy: [{ uid: 'da36310c-60' }],
+            importedBy: [{ uid: '9aea9cf1-76' }],
+          },
+          '9aea9cf1-81': {
+            id: 'E:/private-code/vite-vue3-project/src/stores/modules/index.ts',
+            moduleParts: {},
+            imported: [{ uid: '9aea9cf1-82' }, { uid: '9aea9cf1-83' }],
+            importedBy: [{ uid: '9aea9cf1-80' }],
+          },
+          '9aea9cf1-82': {
+            id: 'E:/private-code/vite-vue3-project/src/stores/modules/counter.ts',
+            moduleParts: {},
+            imported: [{ uid: '9aea9cf1-8' }, { uid: '9aea9cf1-40' }],
+            importedBy: [{ uid: '9aea9cf1-81' }],
+          },
+          '9aea9cf1-83': {
+            id: 'E:/private-code/vite-vue3-project/src/stores/modules/user.ts',
+            moduleParts: {},
+            imported: [{ uid: '9aea9cf1-40' }],
+            importedBy: [{ uid: '9aea9cf1-81' }],
           },
         },
         env: { rollup: '4.24.0' },

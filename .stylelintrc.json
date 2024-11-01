@@ -38,15 +38,8 @@
     "color-no-invalid-hex": true,
     "block-no-empty": true,
     "order/order": ["custom-properties", "declarations", "rules"],
-    "order/properties-order": [
-      {
-        "emptyLineBefore": "always",
-        "properties": ["width", "height"]
-      },
-      {
-        "emptyLineBefore": "always",
-        "properties": ["margin", "padding"]
-      }
-    ]
+    "order/properties-order": [],
+    "declaration-empty-line-before": "never",
+    "media-feature-range-notation": null
   }
 }

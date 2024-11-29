@@ -11,7 +11,7 @@ export interface InitStoreOptions {
   namespace: string
 }
 
-/**
+/**Captcha
  * @zh_CN 初始化pinia
  */
 export async function initStores(app: App, options: InitStoreOptions) {
